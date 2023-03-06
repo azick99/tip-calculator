@@ -1,0 +1,24 @@
+.button-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.button-con>input {
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    width: 130px;
+    height: 45px;
+    background: var(--very-light-grayish-cyan);
+    color: var(--very-dark-cyan);
+    font-weight: 600;
+
+}
+
+.button-con>input:focus {
+    outline: 2px solid var(--very-dark-cyan);
+
+}

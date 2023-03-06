@@ -1,0 +1,9 @@
+.costum-button{
+    border: none;
+  width: 130px;
+  height: 45px
+}
+.costum-button:focus{
+    background: var(--strong-cyan);
+    color: var( --very-dark-cyan);
+}

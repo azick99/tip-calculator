@@ -1,0 +1,45 @@
+.costum-input {
+    text-align: right;
+    border: none;
+    background: var(--very-light-grayish-cyan);
+    color: var(--very-dark-cyan);
+    font-weight: 700;
+    width: 100%;
+    padding: .5rem;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.costum-input:focus {
+    outline: 2px solid var(--very-dark-cyan);
+}
+
+
+
+.icons {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.red-line{
+    color: red;
+    position: absolute;
+    font-size: 1rem;
+    bottom: 90px;
+    right: 53%;
+}
+.icons img {
+    color: var(--light-grayish-cyan);
+}
+
+h2 {
+    color: var(--dark-grayish-cyan);
+}
+
+@media screen and (min-width:45em) {
+    .icons {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+}
