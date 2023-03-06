@@ -14,7 +14,9 @@
     outline: 2px solid var(--very-dark-cyan);
 }
 
-
+.people{
+    outline: 2px solid red;
+}
 
 .icons {
     position: absolute;

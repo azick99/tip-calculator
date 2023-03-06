@@ -27,7 +27,9 @@ const CostumInput = ({ title, setBill, setNumPeople, numPeople }) => {
       {numPeople > 0 || <span className="red-line">Can't be zero</span>}
       <input
         type="number"
-        className="costum-input title people"
+        className={
+          numPeople > 0 ? 'costum-input title' : 'costum-input title people'
+        }
         placeholder="0"
         required
         onChange={(e) => {
